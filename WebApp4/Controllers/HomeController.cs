@@ -27,6 +27,13 @@ namespace WebApp4.Controllers
             return View();
         }
 
+		public IActionResult New()
+		{
+			ViewData["Message"] = "Your contact page.";
+
+			return View();
+		}
+
         public IActionResult Error()
         {
             return View();
